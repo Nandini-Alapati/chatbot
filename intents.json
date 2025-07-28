@@ -1,0 +1,196 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi", "Hey", "Hello", "Good day", "Is anyone there?", "Greetings traveler"
+      ],
+      "responses": [
+        "Hey there! Ready to plan your next trip?",
+        "Hello! Looking for travel ideas or assistance?",
+        "Hi traveler! How can I make your journey smoother?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Talk to you soon", "Take care"],
+      "responses": [
+        "Safe travels! See you again soon.",
+        "Goodbye! Have a fantastic trip.",
+        "Catch you later! Happy exploring."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot", "Appreciate it"],
+      "responses": [
+        "Glad to help with your travel plans!",
+        "You're welcome! Bon voyage!",
+        "Anytime! Let me know if you need more tips."
+      ]
+    },
+    {
+      "tag": "tourist_places",
+      "patterns": [
+        "Best places to visit?", "Top destinations?", "Where should I travel?",
+        "Recommend some tourist spots", "Popular places for vacation"
+      ],
+      "responses": [
+        "Top destinations include Paris, Bali, New York, Kyoto, and Rome.",
+        "You should explore the Eiffel Tower, Great Wall of China, and Machu Picchu!",
+        "Popular tourist spots: Santorini in Greece, Dubai in UAE, and Cape Town in South Africa."
+      ]
+    },
+    {
+      "tag": "hotels",
+      "patterns": [
+        "Where should I stay?", "Famous hotels?", "Any hotel recommendations?",
+        "Luxury or budget hotels?", "Best hotels near attractions?"
+      ],
+      "responses": [
+        "Luxury: The Ritz, Taj Palace, Burj Al Arab. Budget: Ibis, OYO, Treebo.",
+        "Marriott, Hilton, and boutique hotels are great picks depending on your destination.",
+        "Let me help you find a hotel based on location and budget!"
+      ]
+    },
+    {
+      "tag": "expenses",
+      "patterns": [
+        "Average cost of travel?", "Trip cost estimate?", "Is it expensive to travel?",
+        "Daily budget for vacation?", "Total trip expenses?"
+      ],
+      "responses": [
+        "Budget trips may cost $500–$1000 per week; mid-range: $1500–$3000.",
+        "Luxury travel can go over $5000 depending on your preferences.",
+        "Let me help you build a budget-friendly itinerary."
+      ]
+    },
+    {
+      "tag": "flights",
+      "patterns": [
+        "Best time to book flights?", "How to find cheap airfare?", "Can you help book a flight?",
+        "Where to check flight prices?"
+      ],
+      "responses": [
+        "Use tools like Google Flights or Skyscanner to compare prices.",
+        "Early booking and flexible dates usually help save money.",
+        "I can guide you on booking platforms and deals!"
+      ]
+    },
+    {
+      "tag": "visa",
+      "patterns": [
+        "Do I need a visa?", "How to apply for a travel visa?", "Visa requirements for travel?",
+        "Help with visa application"
+      ],
+      "responses": [
+        "Visa requirements depend on your nationality and destination.",
+        "Visit the official embassy website or visa service platforms like iVisa.",
+        "I can help check basic visa rules for your trip!"
+      ]
+    },
+    {
+      "tag": "currency",
+      "patterns": [
+        "What's the currency there?", "Should I exchange money before travel?", "Best way to handle currency?",
+        "Currency exchange tips?"
+      ],
+      "responses": [
+        "Check local currency—rates can vary daily. XE.com helps with conversions.",
+        "Use international travel cards or exchange at reliable counters.",
+        "Avoid airport exchanges if possible—they tend to offer poor rates."
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather like there?", "Best time to visit?", "Is it cold or hot during summer?",
+        "Should I pack winter clothes?"
+      ],
+      "responses": [
+        "I can check seasonal trends—some places are amazing in spring or fall.",
+        "Always check local forecasts before packing!",
+        "Let’s tailor your packing list to weather conditions!"
+      ]
+    },
+    {
+      "tag": "transport",
+      "patterns": [
+        "How do I get around?", "Best transport options?", "Can I rent a car or scooter?",
+        "Is public transport safe?", "Local transport tips?"
+      ],
+      "responses": [
+        "Most cities offer metro, buses, taxis, and rideshares. Rentals are common too.",
+        "For tourists, day passes or metro cards are budget-friendly!",
+        "Let's see what transport suits your destination best."
+      ]
+    },
+    {
+      "tag": "booking",
+      "patterns": [
+        "How to book hotels?", "Is online booking safe?", "Best platforms for travel booking?",
+        "Can I book tickets through you?"
+      ],
+      "responses": [
+        "Use trusted platforms like Booking.com, MakeMyTrip, or Expedia.",
+        "Always check reviews, ratings, and cancellation policies.",
+        "Let me guide you based on your travel style and destination!"
+      ]
+    },
+    {
+      "tag": "dining",
+      "patterns": [
+        "Where can I eat?", "Best restaurants nearby?", "Local food recommendations?",
+        "Is vegetarian food available?"
+      ],
+      "responses": [
+        "Most cities offer diverse cuisines—check TripAdvisor or Google Maps.",
+        "Vegetarian and vegan options are widely available in popular places.",
+        "Let’s explore dishes unique to your destination!"
+      ]
+    },
+    {
+      "tag": "activities",
+      "patterns": [
+        "Fun things to do?", "Local experiences?", "Adventure sports?", "What can I do there?"
+      ],
+      "responses": [
+        "Try city tours, cultural events, nature trails, or adventure sports!",
+        "Want something relaxing or thrilling? I can recommend!",
+        "Each destination has its own vibe—let’s match it to your interests."
+      ]
+    },
+    {
+      "tag": "safety",
+      "patterns": [
+        "Is it safe to travel there?", "Any safety tips?", "Travel precautions?", "Should I avoid certain areas?"
+      ],
+      "responses": [
+        "Check government travel advisories and local news for updates.",
+        "Basic safety: avoid isolated areas, secure your belongings, and stay aware.",
+        "I can share general travel safety guidance too!"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": ["Tell me a travel joke", "Make me laugh", "Say something funny"],
+      "responses": [
+        "Why don’t mountains get cold in the winter? They wear snowcaps!",
+        "Why did the tourist bring a ladder to the bar? Because he heard the drinks were on the house!",
+        "I asked the travel agent if I could go to paradise. They gave me a ticket to the Maldives!"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "I need help", "What can you do?", "Help me plan a trip", "Guide me",
+        "How do I plan a vacation?", "Can you assist with travel planning?"
+      ],
+      "responses": [
+        "I can help with trip ideas, hotels, tickets, budgets, and more.",
+        "Tell me your destination, travel dates, and budget—I'll do the rest!",
+        "Let's plan something unforgettable. Ready when you are!"
+      ]
+    }
+  ]
+}
