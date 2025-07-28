@@ -9,3 +9,16 @@ Features:
 🚀 Flask backend integration
 
 📂 Static asset handling
+
+Chatbot
+│
+├── static/                  # Static assets like CSS, JS, images
+│   ├── style.css            # Chatbox styles
+│   ├── app.js               # Frontend chatbot logic
+│   └── images/              # Avatar, icons, etc.
+│       └── chatbox-icon.svg
+│
+├── templates/               # HTML templates for Flask
+│   └── base.html            # Main layout for chatbot interface
+│
+├── app.py                   # Flask server and routing 
